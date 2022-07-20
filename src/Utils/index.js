@@ -1,4 +1,7 @@
 import dayjs from "dayjs";
+import id from "dayjs/locale/id"
+
+dayjs.locale(id)
 
 export const dateFormat = (date, format) => {
     return dayjs(date).format(format)
