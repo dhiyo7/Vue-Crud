@@ -48,6 +48,13 @@
       "jam": "04:07",
       "tanggal": "21 Juli 2022",
       "id": 7
+    },
+    {
+      "nama": "Pecel Lele",
+      "pengeluaraan": 20000,
+      "jam": "15:07",
+      "tanggal": "21 Juli 2022",
+      "id": 8
     }
   ]
 }
