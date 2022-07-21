@@ -55,6 +55,13 @@
       "jam": "15:07",
       "tanggal": "21 Juli 2022",
       "id": 8
+    },
+    {
+      "nama": "Es Teh",
+      "pengeluaraan": 3000,
+      "jam": "17:07",
+      "tanggal": "21 Juli 2022",
+      "id": 9
     }
   ]
 }

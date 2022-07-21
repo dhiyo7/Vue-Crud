@@ -126,7 +126,7 @@ export default {
     },
     async getAllItem() {
       try {
-        const res = await axios.get(`http://localhost:3000/detail`);
+        const res = await axios.get(`https://my-json-server.typicode.com/dhiyo7/Vue-Crud/detail`);
         this.details = res.data;
         let group_to_values = this.details.reduce(function (obj, item) {
           obj[item.tanggal] = obj[item.tanggal] || [];
@@ -157,7 +157,7 @@ export default {
         this.errors.push('Isi dulu yah...');
       }
       if (this.nama && this.pengeluaraan) {
-        const res = await axios.post(`http://localhost:3000/detail`, {
+        const res = await axios.post(`https://my-json-server.typicode.com/dhiyo7/Vue-Crud/detail`, {
           nama: this.nama,
           pengeluaraan: this.pengeluaraan,
           jam: this.jam,
